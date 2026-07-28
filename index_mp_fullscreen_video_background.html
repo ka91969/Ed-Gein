@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="https://themewagon.github.io/titan/">
     <!--  
     Document Title
     =============================================
@@ -52,6 +53,91 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    <!-- Dark theme override -->
+    <style>
+      body,
+      main,
+      .module,
+      .module-small,
+      .footer,
+      .bg-dark,
+      .bg-dark-30,
+      .bg-dark-60 {
+        background-color: #111111 !important;
+      }
+      .post,
+      .widget,
+      .form-control,
+      .dropdown-menu,
+      .navbar-collapse {
+        background-color: #1a1a1a !important;
+      }
+      .form-control {
+        border-color: #333333 !important;
+        color: #f2f2f2 !important;
+      }
+      .form-control::placeholder {
+        color: #999999 !important;
+      }
+      body,
+      p,
+      li,
+      .module-subtitle,
+      .post-entry,
+      .widget p,
+      .footer,
+      .copyright,
+      .testimonial-descr,
+      .post-meta,
+      .help-block {
+        color: #cccccc !important;
+      }
+      h1, h2, h3, h4, h5, h6,
+      .module-title,
+      .post-title a,
+      .widget-title,
+      .testimonial-title,
+      .callout-title,
+      .navbar-brand,
+      .testimonial-text {
+        color: #ffffff !important;
+      }
+      a,
+      .dropdown-menu > li > a,
+      .icon-list li a,
+      .widget-posts-title a,
+      .more-link,
+      .footer a {
+        color: #e0e0e0 !important;
+      }
+      a:hover,
+      .dropdown-menu > li > a:hover {
+        color: #ffffff !important;
+      }
+      hr,
+      .divider-d {
+        border-color: #333333 !important;
+      }
+      #home.home-section {
+        position: relative !important;
+        overflow: hidden !important;
+      }
+      #home.home-section .video-player,
+      #home.home-section .mbYTP_wrapper,
+      #home.home-section .MB_YTPlayer {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 0 !important;
+      }
+      #home.home-section .titan-caption,
+      #home.home-section .video-controls-box {
+        position: relative !important;
+        z-index: 1 !important;
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -356,7 +442,7 @@
         </div>
       </nav>
       <section class="home-section home-full-height bg-dark-30" id="home" data-background="assets/images/section-5.jpg">
-        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=bNucJgetMjE', containment:'.home-section', startAt:18, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=EDBmpfbnLGk&t=2s', containment:'.home-section', startAt:2, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
         <div class="video-controls-box">
           <div class="container">
             <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
